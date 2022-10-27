@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Campground = require("../models/campground");
 const cities = require("./cities");
+const { places, descriptors } = require();
 
 main().catch((err) => console.log(err));
 async function main() {
